@@ -1,21 +1,21 @@
 body {
   background-color: #232323;
-  font-family: "Gotham Narrow SSm 4r",Arial,Helvetica,sans-serif;
+  font-family: "Gotham Narrow SSm 4r", Arial, Helvetica, sans-serif;
   color: #fff;
 }
 
 #website {
   display: flex;
   justify-content: center;
-
 }
 
 .headerbar {
   width: 90%;
   background-color: #0054a0;
   justify-content: space-between;
-
-  img {
-    height: 30px;
-  }
 }
+.headerbar img {
+  height: 30px;
+}
+
+/*# sourceMappingURL=input.css.map */
