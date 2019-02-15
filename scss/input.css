@@ -4,18 +4,53 @@ body {
   color: #fff;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 #website {
   display: flex;
-  justify-content: center;
 }
 
 .headerbar {
+  align-self: center;
   width: 90%;
   background-color: #0054a0;
-  justify-content: space-between;
+  justify-content: center;
+  height: 58px;
 }
 .headerbar img {
-  height: 30px;
+  height: 100%;
+  align-self: center;
+  margin-right: 100px;
+}
+.headerbar li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+.break {
+  align-self: center;
+  width: 90%;
+  height: 5px;
+  background-color: aqua;
+}
+
+.navbar {
+  align-self: center;
+  width: 90%;
+  justify-content: center;
+  background-color: white;
+  color: navy;
+}
+.navbar li {
+  display: inline;
 }
 
 /*# sourceMappingURL=input.css.map */

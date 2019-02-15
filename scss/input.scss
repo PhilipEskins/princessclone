@@ -1,21 +1,55 @@
+@import "mixin";
+
 body {
   background-color: #232323;
   font-family: "Gotham Narrow SSm 4r",Arial,Helvetica,sans-serif;
   color: #fff;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 #website {
   display: flex;
-  justify-content: center;
-
 }
 
 .headerbar {
-  width: 90%;
+  @include centerItems;
   background-color: #0054a0;
-  justify-content: space-between;
+  justify-content: center;
+  height: 58px;
 
   img {
-    height: 30px;
+    height: 100%;
+    align-self: center;
+    margin-right: 100px;
+  }
+
+  li {
+    display: inline;
+    padding: 0px 15px;
+  }
+}
+
+.break {
+  @include centerItems;
+  height: 5px;
+  background-color: aqua;
+}
+
+.navbar {
+  @include centerItems;
+  justify-content: center;
+  background-color: white;
+  color: navy;
+  li {
+    display: inline;
   }
 }
