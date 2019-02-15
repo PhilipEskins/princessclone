@@ -92,6 +92,7 @@ body {
 
 .form {
   justify-content: space-around;
+  margin: 100px, 0px;
   select {
     padding: 5px 10px;
     margin: 5px 10px;
@@ -106,4 +107,30 @@ body {
   @include centerItems;
   height: 338px;
   background-color: rgb(13,47, 86);
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: rgb(9, 33, 61);
+  height: 85%;
+  width: 275px;
+  border: 1px solid lightgray;
+  align-items: center;
+  margin: 0px 10px;
+  object-fit: contain;
+
+  .image {
+    align-self:stretch;
+    height: 100%;
+    width: 100%;
+  }
+
+  img {
+   height: auto;
+   width: auto;
+   max-height: 100%;
+   max-width: 100%;
+   object-fit: contain;
+  }
 }
