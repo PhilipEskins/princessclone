@@ -120,19 +120,38 @@ body {
   border: 1px solid lightgray;
   align-items: center;
   margin: 0px 10px;
-  object-fit: contain;
+  justify-content: center;
 }
-.box .image {
-  align-self: stretch;
-  height: 100%;
+.box .top {
+  border: 1px red solid;
+  height: 30px;
+  font-size: 100%;
+  padding: 10%;
+  align-items: center;
+}
+.box .imageMed {
   width: 100%;
+  height: 100%;
+  background-image: url("../img/medallion.jpg");
+  background-size: 100% 100%;
 }
-.box img {
-  height: auto;
-  width: auto;
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+.box .imageMexico {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/mexico.jpg");
+  background-size: 100% 100%;
+}
+.box .imageTrain {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/train.jpg");
+  background-size: 100% 100%;
+}
+.box .imageEuro {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/euro.jpg");
+  background-size: 100% 100%;
 }
 
 /*# sourceMappingURL=input.css.map */
