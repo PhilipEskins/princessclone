@@ -15,12 +15,13 @@ body {
 }
 
 #website {
-  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .headerbar {
   align-self: center;
-  width: 90%;
+  width: 95%;
   background-color: #0054a0;
   justify-content: center;
   height: 58px;
@@ -37,20 +38,35 @@ body {
 
 .break {
   align-self: center;
-  width: 90%;
+  width: 95%;
   height: 5px;
   background-color: aqua;
 }
 
 .navbar {
   align-self: center;
-  width: 90%;
+  width: 95%;
   justify-content: center;
   background-color: white;
   color: navy;
 }
 .navbar li {
   display: inline;
+  padding: 0px 30px;
+}
+
+.allaboard {
+  align-self: center;
+  width: 95%;
+}
+.allaboard img {
+  width: 100%;
+}
+
+.searchBlock {
+  height: 109px;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=input.css.map */

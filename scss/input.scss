@@ -17,7 +17,8 @@ body {
 }
 
 #website {
-  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .headerbar {
@@ -51,5 +52,19 @@ body {
   color: navy;
   li {
     display: inline;
+    padding: 0px 30px;
   }
+}
+
+.allaboard {
+  @include centerItems;
+  img {
+    width: 100%;
+  }
+}
+
+.searchBlock {
+  height: 109px;
+  justify-content: center;
+  align-items: center;
 }
