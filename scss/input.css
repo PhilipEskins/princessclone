@@ -64,9 +64,50 @@ body {
 }
 
 .searchBlock {
+  align-self: center;
+  width: 95%;
+  background-color: #09213d;
   height: 109px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.searchItems {
+  width: 80%;
+}
+
+.searchText {
+  width: 100%;
+  justify-content: space-between;
+}
+.searchText p {
+  margin: 0px 10px;
+}
+.searchText .smallText {
+  font-size: 0.8em;
+}
+
+.rightText {
+  align-self: flex-end;
+}
+
+.form {
+  justify-content: space-around;
+}
+.form select {
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+.form .results {
+  padding: 10px 10px;
+  background-color: #35a748;
+}
+
+.promo-block {
+  align-self: center;
+  width: 95%;
+  height: 338px;
+  background-color: #0d2f56;
 }
 
 /*# sourceMappingURL=input.css.map */

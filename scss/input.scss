@@ -64,7 +64,46 @@ body {
 }
 
 .searchBlock {
+  @include centerItems;
+  background-color: rgb(9, 33, 61);
   height: 109px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.searchItems {
+  width: 80%;
+}
+
+.searchText {
+  width: 100%;
+  justify-content: space-between;
+  p {
+    margin: 0px 10px;
+  }
+  .smallText {
+    font-size: 0.80em;
+  }
+}
+
+.rightText {
+  align-self: flex-end;
+}
+
+.form {
+  justify-content: space-around;
+  select {
+    padding: 5px 10px;
+    margin: 5px 10px;
+  }
+  .results {
+    padding: 10px 10px;
+    background-color: rgb(53, 167, 72);
+  }
+}
+
+.promo-block {
+  @include centerItems;
+  height: 338px;
+  background-color: rgb(13,47, 86);
 }
