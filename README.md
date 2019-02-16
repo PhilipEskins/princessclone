@@ -6,7 +6,7 @@
 
 ## Description
 
-_This website is a clone of the front page of https://www.princess.com/ The Princess website might look a lot different depending on when you view this. Screenshots from the version I worked off of are below._
+_This website is a clone of the front page of https://www.princess.com/ The Princess website might look a lot different depending on when you view this. Screenshots from the version I worked off of are below. My website does include some @media functionality, feel free to resize your screen to check them out._
 _Link to viewable webpage https://philipeskins.github.io/princessclone/_
 
 ## Setup/Installation Requirements
@@ -28,7 +28,9 @@ _If you have problems or would like to comment about something feel free to cont
 _This website uses HTML, CSS, and SASS_
 
 ### Screenshots
+_Original Website_
 ![Alt text](img/princess.jpg?raw=true "Original Website")
+_My Clone Website_
 ![Alt text](img/clone.jpg?raw=true "My Clone Website")
 
 ### License
