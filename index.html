@@ -3,19 +3,119 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="scss/input.css" type="text/css">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <title>Princess Cruise Clone</title>
   </head>
   <body>
-    <div id="website">
-      <div class="headerbar">
-
-      <img src="img/logo.png">
-      Language
-      Sign Up for Special Offers
-      Deals
-      Sign In / Register
-      Search
+    <div id="website" class="column">
+      <div class="headerbar row">
+        <img src="img/logo.png">
+        <div class="regNav">
+          <ul>
+            <li><ion-icon name="globe"></ion-icon> Language</li>
+            <li><ion-icon name="mail"></ion-icon> Sign Up for Special Offers</li>
+            <li><ion-icon name="pricetag"></ion-icon> Deals</li>
+            <li><ion-icon name="person"></ion-icon> Sign In / Register</li>
+            <li><ion-icon name="search"></ion-icon> Search</li>
+          </ul>
+        </div>
+        <div class="shortbar row">
+          <div class="column">
+            <ion-icon name="boat"></ion-icon>
+            <span>Cruises</span>
+          </div>
+          <div class="column">
+            <ion-icon name="call"></ion-icon>
+            <span>Phone</span>
+          </div>
+          <div class="column">
+            <ion-icon name="menu"></ion-icon>
+            <span>Menu</span>
+          </div>
+        </div>
       </div>
+
+      <div class="break">&nbsp</div>
+      <div class="navbar row">
+        <ul class="row">
+          <li>Plan a Cruise</li>
+          <li>Onboard our Ships</li>
+          <li>Destinations</li>
+          <li>Booked Guests</li>
+          <li>Contact Us</li>
+          <li>1-800-774-6237</li>
+        </ul>
+      </div>
+      <div class="allaboard row">
+        <img src="img/allaboard.jpg">
+      </div>
+      <div class="searchBlock column">
+        <div class="searchItems column">
+          <div class="searchText row">
+            <div class="leftText row">
+              <p>FIND A CRUISE</p>
+              <p class="smallText">See Recently Viewed</p>
+            </div>
+            <div class="rightText row">
+              <p class="smallText">See if you qualify for special cruise fares</p>
+              <p class="smallText">Advanced Search</p>
+            </div>
+          </div>
+          <div class="form row">
+            <form>
+              <select>
+                <option>Month / Year: Any</option>
+              </select>
+              <select>
+                <option>Destination: Any</option>
+              </select>
+              <select>
+                <option>Departure / End Port: Any</option>
+              </select>
+              <select>
+                <option>Cruise Length: Any</option>
+              </select>
+              <span class="results">View Results</span>
+            </form>
+          </div>
+        </div>
+        <div class="shortSearch">
+          <span>Find a Cruise Vacation</span>
+        </div>
+      </div>
+
+      <div class="promo-block row">
+        <div class="box column odd">
+          <div class="top column">
+            Mediterranean Cruises from $1,049
+          </div>
+          <div class="imageEuro">
+          </div>
+        </div>
+        <div class="box column even">
+          <div class="top column">
+            Alaska Cruisestours from $998
+          </div>
+          <div class="imageTrain">
+          </div>
+        </div>
+        <div class="box column odd">
+          <div class="top column">
+            Mexico Cruises from $506
+          </div>
+          <div class="imageMexico">
+          </div>
+        </div>
+        <div class="box column even">
+          <div class="top column">
+            <span>Princess MedallionClass</span>
+            <span>More time for me time</span>
+          </div>
+          <div class="imageMed">
+          </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
