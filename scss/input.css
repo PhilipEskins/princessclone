@@ -35,6 +35,9 @@ body {
   display: inline;
   padding: 0px 15px;
 }
+.headerbar .shortbar {
+  display: none;
+}
 
 .break {
   align-self: center;
@@ -104,6 +107,10 @@ body {
   background-color: #35a748;
 }
 
+.shortSearch {
+  display: none;
+}
+
 .promo-block {
   align-self: center;
   width: 95%;
@@ -123,11 +130,12 @@ body {
   justify-content: center;
 }
 .box .top {
-  border: 1px red solid;
   height: 30px;
   font-size: 100%;
   padding: 10%;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .box .imageMed {
   width: 100%;
@@ -152,6 +160,90 @@ body {
   height: 100%;
   background-image: url("../img/euro.jpg");
   background-size: 100% 100%;
+}
+
+@media screen and (max-width: 1170px) {
+  .headerbar img {
+    height: 100%;
+    align-self: center;
+    margin-right: 5px;
+  }
+  .headerbar li {
+    display: inline;
+    padding: 0px 5px;
+    font-size: 85%;
+  }
+
+  .navbar li {
+    padding: 0px 5px;
+  }
+
+  .form select {
+    margin: 5px 0px;
+  }
+
+  .searchItems {
+    width: 100%;
+  }
+
+  .box .top {
+    font-size: 90%;
+    line-height: 1em;
+  }
+}
+@media screen and (max-width: 860px) {
+  .headerbar {
+    justify-content: space-between;
+  }
+  .headerbar .shortbar {
+    display: flex;
+    margin: 0px 20px;
+  }
+  .headerbar .shortbar ion-icon {
+    align-self: center;
+    font-size: 32px;
+  }
+  .headerbar .shortbar span {
+    margin: 0px 20px;
+  }
+
+  .regNav {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .searchItems {
+    display: none;
+  }
+
+  .shortSearch {
+    display: flex;
+    padding: 10px 10px;
+    background-color: #35a748;
+  }
+
+  .promo-block {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1200px;
+  }
+  .promo-block .box {
+    width: 95%;
+    height: 100%;
+    margin: 10px 0px;
+  }
+  .promo-block .top {
+    width: 61%;
+  }
+  .promo-block .odd {
+    flex-direction: row;
+  }
+  .promo-block .even {
+    flex-direction: row-reverse;
+  }
 }
 
 /*# sourceMappingURL=input.css.map */

@@ -37,6 +37,9 @@ body {
     display: inline;
     padding: 0px 15px;
   }
+  .shortbar {
+    display: none;
+  }
 }
 
 .break {
@@ -103,6 +106,10 @@ body {
   }
 }
 
+.shortSearch {
+  display: none;
+}
+
 .promo-block {
   @include centerItems;
   height: 338px;
@@ -121,11 +128,12 @@ body {
   justify-content: center;
 
   .top {
-    border: 1px red solid;
     height: 30px;
     font-size: 100%;
     padding: 10%;
     align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .imageMed {
@@ -155,5 +163,100 @@ body {
     background-image: url("../img/euro.jpg");
     background-size: 100% 100%;
   }
+}
 
+@media screen and (max-width: 1170px) {
+  .headerbar {
+    img {
+      height: 100%;
+      align-self: center;
+      margin-right: 5px;
+    }
+
+    li {
+      display: inline;
+      padding: 0px 5px;
+      font-size: 85%;
+    }
+  }
+
+  .navbar {
+    li {
+      padding: 0px 5px;
+    }
+  }
+
+  .form {
+    select {
+      margin: 5px 0px;
+    }
+  }
+  .searchItems {
+    width: 100%;
+  }
+  .box {
+    .top {
+      font-size: 90%;
+      line-height: 1em;
+    }
+  }
+}
+
+@media screen and (max-width: 860px){
+  .headerbar {
+    justify-content: space-between;
+    .shortbar {
+      display: flex;
+      margin: 0px 20px;
+      ion-icon {
+        align-self: center;
+        font-size: 32px;
+      }
+      span {
+        margin: 0px 20px;
+      }
+    }
+  }
+
+
+  .regNav {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .searchItems{
+    display: none;
+  }
+  .shortSearch {
+    display: flex;
+    padding: 10px 10px;
+    background-color: rgb(53, 167, 72);
+  }
+
+  .promo-block {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1200px;
+
+    .box{
+      width: 95%;
+      height: 100%;
+      margin: 10px 0px;
+    }
+
+    .top {
+      width: 61%;
+    }
+
+    .odd {
+      flex-direction: row;
+    }
+
+    .even {
+      flex-direction: row-reverse;
+    }
+  }
 }
